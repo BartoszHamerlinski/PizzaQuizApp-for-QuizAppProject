@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:orientation="vertical"
+        tools:context="com.example.android.pizzaquizapp.MainActivity">
+
+        <TextView
+            android:id="@+id/question_no_1"
+            style="@style/QuestionsTextView"
+            android:text="@string/question_1" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/answer_first_question_1"
+                style="@style/RadioStyle"
+                android:text="@string/poland" />
+
+            <RadioButton
+                android:id="@+id/answer_second_question_1"
+                style="@style/RadioStyle"
+                android:text="@string/italy" />
+
+            <RadioButton
+                android:id="@+id/answer_third_question_1"
+                style="@style/RadioStyle"
+                android:text="@string/rome" />
+
+            <RadioButton
+                android:id="@+id/answer_fourth_question_1"
+                style="@style/RadioStyle"
+                android:text="@string/greece" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_no_2"
+            style="@style/QuestionsTextView"
+            android:text="@string/question_2" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/answer_first_question_2"
+                style="@style/RadioStyle"
+                android:text="@string/salami" />
+
+            <RadioButton
+                android:id="@+id/answer_second_question_2"
+                style="@style/RadioStyle"
+                android:text="@string/tomato_souce" />
+
+            <RadioButton
+                android:id="@+id/answer_third_question_2"
+                style="@style/RadioStyle"
+                android:text="@string/ananas" />
+
+            <RadioButton
+                android:id="@+id/answer_fourth_question_2"
+                style="@style/RadioStyle"
+                android:text="@string/cheese" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_no_3"
+            style="@style/QuestionsTextView"
+            android:text="@string/question_3" />
+
+        <CheckBox
+            android:id="@+id/answer_first_question_3"
+            style="@style/CheckBox"
+            android:text="@string/tomato_souce" />
+
+        <CheckBox
+            android:id="@+id/answer_second_question_3"
+            style="@style/CheckBox"
+            android:text="@string/tuna" />
+
+        <CheckBox
+            android:id="@+id/answer_third_question_3"
+            style="@style/CheckBox"
+            android:text="@string/cheese" />
+
+        <CheckBox
+            android:id="@+id/answer_fourth_question_3"
+            style="@style/CheckBox"
+            android:text="@string/oregano" />
+
+        <TextView
+            android:id="@+id/question_no_4"
+            style="@style/QuestionsTextView"
+            android:text="@string/question_4" />
+
+        <EditText
+            android:id="@+id/answer_first_question_4"
+            style="@style/EditTextStyle" />
+
+        <EditText
+            android:id="@+id/answer_second_question_4"
+            style="@style/EditTextStyle" />
+
+        <EditText
+            android:id="@+id/answer_third_question_4"
+            style="@style/EditTextStyle" />
+
+        <TextView
+            android:id="@+id/question_no_5"
+            style="@style/QuestionsTextView"
+            android:text="@string/question_5" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/answer_first_question_5"
+                style="@style/RadioStyle"
+                android:text="@string/answer1q5" />
+
+            <RadioButton
+                android:id="@+id/answer_second_question_5"
+                style="@style/RadioStyle"
+                android:text="@string/answer2q5" />
+
+            <RadioButton
+                android:id="@+id/answer_third_question_5"
+                style="@style/RadioStyle"
+                android:text="@string/answer3q5" />
+
+            <RadioButton
+                android:id="@+id/answer_fourth_question_5"
+                style="@style/RadioStyle"
+                android:text="@string/answer4q5" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/final_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/final_score"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/button_for_score"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/roundedviews"
+                android:onClick="showScore"
+                android:text="@string/show_scores"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

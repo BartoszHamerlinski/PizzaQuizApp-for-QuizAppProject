@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pizza QuizApp</string>
+    <string name="question_1"> 1. In which country Pizza has it\'s origins as a different dish?</string>
+    <string name="poland">Poland</string>
+    <string name="italy">Italy</string>
+    <string name="rome">Rome</string>
+    <string name="greece">Greece</string>
+    <string name="question_2"> 2. The most controversial ingredient in the world of Pizza is:</string>
+    <string name="salami">Salami</string>
+    <string name="tomato_souce">Tomato souce</string>
+    <string name="ananas">Ananas</string>
+    <string name="question_3"> 3. With which ingerediens Pizza margherita is made of?</string>
+    <string name="cheese">Cheese</string>
+    <string name="tuna">Tuna</string>
+    <string name="oregano">Oregano</string>
+    <string name="question_4">4. In the field below, please write down three main ingredients of Pizza dough</string>
+    <string name="question_5">5. How many ingredients should be placed on Pizza according to Italians</string>
+    <string name="answer1q5">1</string>
+    <string name="answer2q5">2</string>
+    <string name="answer3q5">3</string>
+    <string name="answer4q5">4</string>
+    <string name="show_scores">Show score</string>
+    <string name="final_score">0</string>
+</resources>
